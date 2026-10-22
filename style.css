@@ -1,0 +1,63 @@
+.top{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #f2f2f2;
+    padding: 0px 25px;
+    background-color: rgb(15, 15, 45);
+    color: white;
+    position: fixed;
+    width: 100%;
+
+}
+.top-links{
+    display: flex;
+    padding-left: 25px;
+}
+#home, #about, #projects, #contact{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}  
+#contact{
+    padding-right: 50px;
+}
+
+nav{
+    background-color: rgb(15, 15, 60);
+    color: white;
+    padding: 40px 30px 25px 30px;
+}
+.btn{
+    background-color: white;
+    color: blue;
+}
+a{
+    text-decoration: none
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: white;
+    color: rgb(15, 15, 60);
+}
+.min-content{
+    padding-left: 30px;
+}       
+.skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+body{
+    margin: -0px;
+}
+footer{
+    background-color:rgb(15, 15, 60);
+    color: white;
+    padding: 5px;
+    text-align: center; 
+}
